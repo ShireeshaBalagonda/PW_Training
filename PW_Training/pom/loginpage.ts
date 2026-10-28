@@ -29,6 +29,6 @@ export class Loginpage{
 
     public async verifyLoginPageDisplay(){
         await expect(this.hdrLogin).toBeVisible();
-        console.log('Login page is displayed')
+        console.log('Login page is displayed on top')
     }
 }
